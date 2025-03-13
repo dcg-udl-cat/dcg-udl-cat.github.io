@@ -2,7 +2,7 @@
 #layout: member
 name: "Jordi Vilaplana"
 doctor: "true"
-position: "Lecturer"
+position: "Associate Professor"
 role: "Researcher"
 affiliation: "Universitat de Lleida"
 image: "/members/images/user.png"

@@ -1,6 +1,6 @@
 ---
 #layout: member
-name: "Dídac Florensa Cazorla"
+name: "Dídac Florensa"
 doctor: "true"
 # Check the available positions in _config.yml how to
 position: "Postdoctoral Researcher"    
