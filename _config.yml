@@ -30,4 +30,6 @@ collections:
     output: true
   infrastructures:
     output: true
+  projects:
+    output: true
 

@@ -7,4 +7,6 @@ main:
     url: /members/
   - title: Publications
     url: /publications/
+  - title: Projects
+    url: /projects/
 
