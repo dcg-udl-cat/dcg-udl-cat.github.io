@@ -28,4 +28,6 @@ collections:
     output: true
   publications:
     output: true
+  infrastructures:
+    output: true
 

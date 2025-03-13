@@ -1,0 +1,44 @@
+<article class="infrastructure">
+  <div class="row infrastructure-row align-items-center">
+
+    <div class="col-md-4">
+      <div class="infrastructure-image text-center">
+        {% if infrastructure.image %}
+          <img src="{{ infrastructure.image }}" alt="{{ infrastructure.name }}" class="img-fluid rounded-circle shadow-lg" loading="lazy">
+        {% endif %}
+      </div>
+    </div>
+
+
+    <div class="col-md-8">
+      <div class="infrastructure-info">
+        {% if infrastructure.name %}
+          <h3 class="infrastructure-name mb-2">{{ infrastructure.name }}</h3>
+        {% endif %}
+        {% if infrastructure.description %}
+          <p class="infrastructure-description text-muted mb-3">{{ infrastructure.description }}</p>
+        {% endif %}
+      </div>
+      <div class="infrastructure-links">
+        {% if infrastructure.documentation %}
+          <a href="{{ infrastructure.documentation }}" class="btn btn-outline-primary btn-sm mr-2 mb-2">
+            <i class="fas fa-book"></i> Documentation
+          </a>
+        {% endif %}
+        {% if infrastructure.website %}
+          <a href="{{ infrastructure.website }}" class="btn btn-outline-info btn-sm mr-2 mb-2">
+            <i class="fas fa-globe"></i> Website
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</article>
+  
+  
+  <!-- Assuming Bootstrap JS and Popper.js (required for Bootstrap) are already included in your project -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  
