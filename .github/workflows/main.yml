@@ -17,6 +17,6 @@ jobs:
           with:
             python-version: 3.9
         - name: Install dependencies
-          run: pip install -r ./data/publications/requirements.txt
+          run: pip install -r ./_data/publications/requirements.txt
         - name: Run scrapper
-          run: python ./data/publications/scrapper.py
+          run: python ./_data/publications/scrapper.py
